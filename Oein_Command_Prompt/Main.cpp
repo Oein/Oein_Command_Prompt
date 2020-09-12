@@ -1,13 +1,19 @@
 #include <iostream>
-#include "String.hpp"
-#include "Funtion.hpp"
+#include "Command.hpp"
 
 using namespace std;
 
-string directory = "/";
-string userName = "User";
-
 int main() {
-	init(&userName);
-	cout << userName;
+	on_start();
+
+	while (true)
+	{
+		string input;
+		cout << get_dir() << ">";
+		getline(cin, input);
+
+		input_command(input);
+
+		cout << '\n';
+	}
 }
