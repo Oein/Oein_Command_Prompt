@@ -66,6 +66,17 @@ void dir(vector<string> commands) {
 	}
 }
 
+void make_dir(vector<string> commands) {
+	string path = directory + commands[1];
+	wstring path_w = L"";
+
+	path_w.assign(path.begin(), path.end());
+
+	int _errno_ = _wmkdir(path_w.c_str());
+
+	return;
+}
+
 void input_command(string command_string) {
 	command_string = replace_all(command_string, "%username%", username);
 
@@ -80,6 +91,7 @@ void input_command(string command_string) {
 	if (to_low(commands[0]) == "ls") { dir(commands); }
 	if (to_low(commands[0]) == "timeout") { Sleep(atoi(commands[1].c_str())); }
 	if (to_low(commands[0]) == "sleep") { Sleep(atoi(commands[1].c_str())); }
+	if (to_low(commands[0]) == "mkdir") { make_dir(commands); }
 }
 
 void on_start() {
