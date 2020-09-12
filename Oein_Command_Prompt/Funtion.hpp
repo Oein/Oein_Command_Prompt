@@ -86,12 +86,14 @@ string to_high(string a) {
 
 int get_last_slash_index(string stringa) {
 	int slash_index = stringa.size();
+	int slash_indext = stringa.size();
 
 	for (int i = 0; i < stringa.size(); i++) {
 		if (stringa[i] == '/') {
+			slash_indext = slash_index;
 			slash_index = i;
 		}
 	}
 
-	return slash_index;
+	return slash_indext == stringa.size() ? slash_index : slash_indext;
 }
