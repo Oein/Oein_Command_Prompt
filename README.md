@@ -7,3 +7,4 @@
 ### dir
 ### ls
 ### timeout [ millisecond ]
+### sleep [ millisecond ]
