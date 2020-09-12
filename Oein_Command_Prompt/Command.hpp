@@ -77,6 +77,7 @@ void input_command(string command_string) {
 	if (commands[0] == "bash") { bash(commands); }
 	if (commands[0] == "title") { title(commands); }
 	if (commands[0] == "dir") { dir(commands); }
+	if (commands[0] == "ls") { dir(commands); }
 }
 
 void on_start() {
