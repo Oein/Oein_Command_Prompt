@@ -71,3 +71,15 @@ vector<string> get_files_in_folder(string path)
 
 	return result;
 }
+
+string to_low(string a) {
+	transform(a.begin(), a.end(), a.begin(), tolower);
+
+	return a;
+}
+
+string to_high(string a) {
+	transform(a.begin(), a.end(), a.begin(), toupper);
+
+	return a;
+}

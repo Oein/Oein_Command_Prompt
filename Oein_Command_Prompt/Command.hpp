@@ -73,13 +73,13 @@ void input_command(string command_string) {
 
 	if (commands.size() < 1) return;
 
-	if (commands[0] == "echo") { echo(commands); }
-	if (commands[0] == "bash") { bash(commands); }
-	if (commands[0] == "title") { title(commands); }
-	if (commands[0] == "dir") { dir(commands); }
-	if (commands[0] == "ls") { dir(commands); }
-	if (commands[0] == "timeout") { Sleep(atoi(commands[1].c_str())); }
-	if (commands[0] == "sleep") { Sleep(atoi(commands[1].c_str())); }
+	if (to_low(commands[0]) == "echo") { echo(commands); }
+	if (to_low(commands[0]) == "bash") { bash(commands); }
+	if (to_low(commands[0]) == "title") { title(commands); }
+	if (to_low(commands[0]) == "dir") { dir(commands); }
+	if (to_low(commands[0]) == "ls") { dir(commands); }
+	if (to_low(commands[0]) == "timeout") { Sleep(atoi(commands[1].c_str())); }
+	if (to_low(commands[0]) == "sleep") { Sleep(atoi(commands[1].c_str())); }
 }
 
 void on_start() {
