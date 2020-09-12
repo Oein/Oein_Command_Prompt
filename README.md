@@ -10,3 +10,4 @@
 ### sleep [ millisecond ]
 ### mkdir [ Dir name ]
 ### rmdir [ Dir name ]
+### cd [ Dir name ]
