@@ -83,3 +83,15 @@ string to_high(string a) {
 
 	return a;
 }
+
+int get_last_slash_index(string stringa) {
+	int slash_index = stringa.size();
+
+	for (int i = 0; i < stringa.size(); i++) {
+		if (stringa[i] == '/') {
+			slash_index = i;
+		}
+	}
+
+	return slash_index;
+}

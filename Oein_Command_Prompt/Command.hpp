@@ -103,7 +103,12 @@ void cd(vector<string> commands) {
 
 	dirName = dirName.substr(0, dirName.size());
 
-	directory = directory + dirName + "/";
+	if (dirName == "..") {
+		directory = directory.substr(0, get_last_slash_index(directory));
+	}
+	else {
+		directory = directory + dirName + "/";
+	}
 }
 
 void input_command(string command_string) {
