@@ -23,7 +23,7 @@ void echo(vector<string> commands) {
 		out = out + commands[i] + " ";
 	}
 
-	cout << out;
+	cout << out << '\n';
 }
 
 void title(vector<string> commands) {
@@ -94,6 +94,18 @@ void remove_dir(vector<string> commands) {
 	return;
 }
 
+void cd(vector<string> commands) {
+	string dirName = "";
+
+	for (int i = 1; i < commands.size(); i++) {
+		dirName = dirName + commands[i];
+	}
+
+	dirName = dirName.substr(0, dirName.size());
+
+	directory = directory + dirName + "/";
+}
+
 void input_command(string command_string) {
 	command_string = replace_all(command_string, "%username%", username);
 
@@ -110,6 +122,7 @@ void input_command(string command_string) {
 	if (to_low(commands[0]) == "sleep") { Sleep(atoi(commands[1].c_str())); }
 	if (to_low(commands[0]) == "mkdir") { make_dir(commands); }
 	if (to_low(commands[0]) == "rmdir") { remove_dir(commands); }
+	if (to_low(commands[0]) == "cd") { cd(commands); }
 }
 
 void on_start() {
