@@ -4,6 +4,7 @@
 #include <string>
 #include <Windows.h>
 #include <vector>
+#include "dirent.h"
 #include "String.hpp"
 #include "Funtion.hpp"
 
@@ -55,6 +56,16 @@ void bash(vector<string> commands){
 	}
 }
 
+void dir(vector<string> commands) {
+	vector<string> result = get_files_in_folder(directory);
+
+	if (result.size() == 0) return;
+
+	for (int i = 0; i < result.size(); i++) {
+		cout << result[i] << "\n";
+	}
+}
+
 void input_command(string command_string) {
 	command_string = replace_all(command_string, "%username%", username);
 
@@ -65,6 +76,7 @@ void input_command(string command_string) {
 	if (commands[0] == "echo") { echo(commands); }
 	if (commands[0] == "bash") { bash(commands); }
 	if (commands[0] == "title") { title(commands); }
+	if (commands[0] == "dir") { dir(commands); }
 }
 
 void on_start() {

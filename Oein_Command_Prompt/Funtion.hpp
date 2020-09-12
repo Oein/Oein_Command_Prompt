@@ -6,6 +6,8 @@
 
 using namespace std;
 
+typedef wstring str_t;
+
 HWND myconsole = GetConsoleWindow();
 HDC mydc = GetDC(myconsole);
 
@@ -49,4 +51,23 @@ void init(string * username) {
 	in.close();
 
 	return;
+}
+
+vector<string> get_files_in_folder(string path)
+{
+	vector<string> result;
+	DIR* dir_ptr = NULL;
+	struct dirent* file = NULL;
+
+	if ((dir_ptr = opendir(path.c_str())) == NULL) {
+		return result;
+	}
+
+	while ((file = readdir(dir_ptr)) != NULL) {
+		result.push_back(file->d_name);
+	} 
+
+	closedir(dir_ptr);
+
+	return result;
 }

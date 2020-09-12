@@ -1,5 +1,5 @@
 ﻿  Main.cpp
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(21,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(32,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(36,5): warning C4834: 'nodiscard' 특성이 포함된 함수의 반환 값을 버리는 중
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(22,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(33,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(64,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   Oein_Command_Prompt.vcxproj -> C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Debug\Oein_Command_Prompt.exe
