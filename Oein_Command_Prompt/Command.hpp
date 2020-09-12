@@ -33,8 +33,6 @@ void title(vector<string> commands) {
 		out = out + commands[i] + " ";
 	}
 
-	out.substr(0, out.size() - 2);
-
 	string a = "title " + out;
 
 	system(a.c_str());
