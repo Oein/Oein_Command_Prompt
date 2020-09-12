@@ -74,6 +74,23 @@ void make_dir(vector<string> commands) {
 
 	int _errno_ = _wmkdir(path_w.c_str());
 
+	if (_errno_ == 0) cout << "Success!";
+	else cout << "Oops! Error!";
+
+	return;
+}
+
+void remove_dir(vector<string> commands) {
+	string path = directory + commands[1];
+	wstring path_w = L"";
+
+	path_w.assign(path.begin(), path.end());
+
+	int _errno_ = _wrmdir(path_w.c_str());
+
+	if (_errno_ == 0) cout << "Success!";
+	else cout << "Oops! Error!";
+
 	return;
 }
 
@@ -92,6 +109,7 @@ void input_command(string command_string) {
 	if (to_low(commands[0]) == "timeout") { Sleep(atoi(commands[1].c_str())); }
 	if (to_low(commands[0]) == "sleep") { Sleep(atoi(commands[1].c_str())); }
 	if (to_low(commands[0]) == "mkdir") { make_dir(commands); }
+	if (to_low(commands[0]) == "rmdir") { remove_dir(commands); }
 }
 
 void on_start() {

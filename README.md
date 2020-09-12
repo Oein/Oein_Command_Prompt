@@ -9,3 +9,4 @@
 ### timeout [ millisecond ]
 ### sleep [ millisecond ]
 ### mkdir [ Dir name ]
+### rmdir [ Dir name ]
