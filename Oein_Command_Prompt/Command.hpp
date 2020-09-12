@@ -78,7 +78,6 @@ void input_command(string command_string) {
 	if (commands[0] == "title") { title(commands); }
 	if (commands[0] == "dir") { dir(commands); }
 	if (commands[0] == "ls") { dir(commands); }
-	if (commands[0] == "timeout") { Sleep(atoi(commands[1].c_str())); }
 }
 
 void on_start() {

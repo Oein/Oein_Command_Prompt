@@ -6,3 +6,4 @@
 ### title [ Title ]
 ### dir
 ### ls
+### timeout [ millisecond ]
