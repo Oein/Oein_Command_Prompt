@@ -12,6 +12,8 @@ using namespace std;
 string directory = "/";
 string username = "User";
 
+void input_command(string command_string);
+
 void echo(vector<string> commands) {
 	if (commands.size() < 2) return;
 	string out = "";
@@ -21,6 +23,21 @@ void echo(vector<string> commands) {
 	}
 
 	cout << out;
+}
+
+void title(vector<string> commands) {
+	if (commands.size() < 2) return;
+	string out = "";
+
+	for (int i = 1; i < commands.size(); i++) {
+		out = out + commands[i] + " ";
+	}
+
+	out.substr(0, out.size() - 2);
+
+	string a = "title " + out;
+
+	system(a.c_str());
 }
 
 void bash(vector<string> commands){
@@ -49,6 +66,7 @@ void input_command(string command_string) {
 
 	if (commands[0] == "echo") { echo(commands); }
 	if (commands[0] == "bash") { bash(commands); }
+	if (commands[0] == "title") { title(commands); }
 }
 
 void on_start() {
