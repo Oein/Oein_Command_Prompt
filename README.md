@@ -12,3 +12,5 @@
 ### rmdir [ Dir name ]
 ### cd [ Dir name ]
 ### set [Key]=[Value]
+### playsound [wav file name]
+### stopsound

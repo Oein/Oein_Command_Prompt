@@ -1,9 +1,10 @@
 ﻿  Main.cpp
 C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Funtion.hpp(142,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(26,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(37,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(68,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(104,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(126,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(145,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(30,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(41,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(72,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(108,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(130,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(167,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(184,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   Oein_Command_Prompt.vcxproj -> C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Debug\Oein_Command_Prompt.exe

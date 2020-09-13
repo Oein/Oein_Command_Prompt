@@ -4,9 +4,13 @@
 #include <string>
 #include <Windows.h>
 #include <vector>
+#include <thread>
+#include <mmsystem.h>
 #include "dirent.hpp"
 #include "String.hpp"
 #include "Funtion.hpp"
+
+#pragma comment(lib,"winmm.lib")
 
 using namespace std;
 
@@ -141,6 +145,41 @@ string get_var_data(string key) {
 	return vars[key];
 }
 
+std::wstring s2ws(const std::string& s)
+{
+	int len;
+	int slength = (int)s.length() + 1;
+	len = MultiByteToWideChar(CP_ACP, 0, s.c_str(), slength, 0, 0);
+	wchar_t* buf = new wchar_t[len];
+	MultiByteToWideChar(CP_ACP, 0, s.c_str(), slength, buf, len);
+	std::wstring r(buf);
+	delete[] buf;
+	return r;
+}
+
+LPCWSTR sw;
+
+void playmusic(vector<string> commands) {
+	if (commands.size() < 2) return;
+
+	string fn = directory;
+
+	for (int i = 1; i < commands.size(); i++) {
+		fn = fn + commands[i];
+	}
+
+	fn = fn.substr(0, fn.size());
+
+	wstring stemp = wstring(fn.begin(), fn.end());
+	sw = stemp.c_str();
+
+	PlaySound(sw, NULL, SND_FILENAME | SND_ASYNC | SND_LOOP);
+}
+
+void stopmusic() {
+	PlaySound(NULL, NULL, SND_ASYNC);
+}
+
 void input_command(string command_string) {
 	for (int i = 0; i < variable_list.size(); i++) {
 		command_string = replace_all(command_string, "%" + variable_list[i] + "%", get_var_data(variable_list[i]));
@@ -161,6 +200,8 @@ void input_command(string command_string) {
 	if (to_low(commands[0]) == "rmdir") { remove_dir(commands); }
 	if (to_low(commands[0]) == "cd") { cd(commands); }
 	if (to_low(commands[0]) == "set") { set(commands); }
+	if (to_low(commands[0]) == "playsound") { playmusic(commands); }
+	if (to_low(commands[0]) == "stopsound") { stopmusic(); }
 }
 
 void on_start() {
