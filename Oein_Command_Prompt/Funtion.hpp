@@ -38,11 +38,13 @@ void init(string * username , string * language_code) {
 	KOR.insert(pair<string, string>("Hello_b", "님?"));
 	KOR.insert(pair<string, string>("Success", "성공!"));
 	KOR.insert(pair<string, string>("OE", "에러!"));
+	KOR.insert(pair<string, string>("AS", "액세스를 성공했습니다!"));
 
 	ENG.insert(pair<string, string>("Hello", "Hello , "));
 	ENG.insert(pair<string, string>("Hello_b", "!"));
 	ENG.insert(pair<string, string>("Success", "Success!"));
 	ENG.insert(pair<string, string>("OE", "Oops! Error!"));
+	ENG.insert(pair<string, string>("AS", "Access succeeded!"));
 
 	Language_map.insert(pair<string, map < string, string>>("KOR", KOR));
 	Language_map.insert(pair<string, map < string, string>>("ENG", ENG));

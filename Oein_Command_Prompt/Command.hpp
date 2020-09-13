@@ -111,10 +111,12 @@ void cd(vector<string> commands) {
 		if (directory != "/") {
 			directory = directory.substr(0, get_last_slash_index(directory));
 			directory = directory + "/";
+			cout << GSBLC(language_code, "AS");
 		}
 	}
 	else {
 		directory = directory + dirName + "/";
+		cout << GSBLC(language_code, "AS");
 	}
 }
 
