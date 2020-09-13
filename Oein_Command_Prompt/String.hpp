@@ -23,18 +23,22 @@ string replace_all(
 	return result;
 }
 
+char d = ' ';
+
 bool space(char c)
 {
-	return isspace(c);
+	return c == d;
 }
 
 bool not_space(char c)
 {
-	return !isspace(c);
+	return c != d;
 }
 
-std::vector<std::string> split(const std::string& str)
+std::vector<std::string> split(const std::string& str , char word)
 {
+	d = word;
+
 	typedef std::string::const_iterator iter;
 	std::vector<std::string> ret;
 

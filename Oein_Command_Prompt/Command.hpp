@@ -12,6 +12,10 @@ using namespace std;
 
 string directory = "/";
 string username = "User";
+string language_code = "";
+
+map<string, string> vars;
+vector<string> variable_list;
 
 void input_command(string command_string);
 
@@ -74,8 +78,8 @@ void make_dir(vector<string> commands) {
 
 	int _errno_ = _wmkdir(path_w.c_str());
 
-	if (_errno_ == 0) cout << "Success!";
-	else cout << "Oops! Error!";
+	if (_errno_ == 0) cout << GSBLC(language_code , "Success");
+	else cout << GSBLC(language_code, "OE");
 
 	return;
 }
@@ -88,8 +92,8 @@ void remove_dir(vector<string> commands) {
 
 	int _errno_ = _wrmdir(path_w.c_str());
 
-	if (_errno_ == 0) cout << "Success!";
-	else cout << "Oops! Error!";
+	if (_errno_ == 0) cout << GSBLC(language_code, "Success");
+	else cout << GSBLC(language_code, "OE");
 
 	return;
 }
@@ -114,10 +118,33 @@ void cd(vector<string> commands) {
 	}
 }
 
-void input_command(string command_string) {
-	command_string = replace_all(command_string, "%username%", username);
+void set(vector<string> commands) {
+	string result = "";
 
-	vector<string> commands = split(command_string);
+	for (int i = 1; i < commands.size(); i++) {
+		result = result + commands[i] + " ";
+	}
+
+	result = result.substr(0, result.size());
+
+	vector<string> a = split(result, '=');
+
+	vars.insert(pair<string, string>(a[0], a[1]));
+	variable_list.push_back(a[0]);
+
+	return;
+}
+
+string get_var_data(string key) {
+	return vars[key];
+}
+
+void input_command(string command_string) {
+	for (int i = 0; i < variable_list.size(); i++) {
+		command_string = replace_all(command_string, "%" + variable_list[i] + "%", get_var_data(variable_list[i]));
+	}
+
+	vector<string> commands = split(command_string , ' ');
 
 	if (commands.size() < 1) return;
 
@@ -131,10 +158,25 @@ void input_command(string command_string) {
 	if (to_low(commands[0]) == "mkdir") { make_dir(commands); }
 	if (to_low(commands[0]) == "rmdir") { remove_dir(commands); }
 	if (to_low(commands[0]) == "cd") { cd(commands); }
+	if (to_low(commands[0]) == "set") { set(commands); }
 }
 
 void on_start() {
-	init(&username);
+	init(&username , &language_code);
+
+	ifstream in("var_list.ocp");
+
+	char buf[1000];
+
+	while (in) {
+		in.getline(buf, 1000);
+		
+		variable_list.push_back(buf);
+	}
+
+	variable_list.push_back("username");
+	variable_list.push_back("lang");
+
 	cout << "Hello, " << username << "!\n";
 }
 

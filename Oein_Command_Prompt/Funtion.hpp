@@ -3,6 +3,7 @@
 #include <iostream>
 #include <windows.h>
 #include <fstream>
+#include <map>
 
 using namespace std;
 
@@ -10,6 +11,8 @@ typedef wstring str_t;
 
 HWND myconsole = GetConsoleWindow();
 HDC mydc = GetDC(myconsole);
+
+map<string, map<string, string>> Language_map;
 
 void setpx (int x , int y , COLORREF COLOR){
 	SetPixel(mydc, x, y, COLOR);
@@ -27,7 +30,23 @@ void setfpx(int x, int y, int dx , int dy , COLORREF COLOR) {
 	ReleaseDC(myconsole, mydc);
 }
 
-void init(string * username) {
+void init(string * username , string * language_code) {
+	map<string, string> KOR;
+	map<string, string> ENG;
+
+	KOR.insert(pair<string, string>("Hello", "¾È³çÇÏ¼¼¿ä? "));
+	KOR.insert(pair<string, string>("Hello_b", "´Ô?"));
+	KOR.insert(pair<string, string>("Success", "¼º°ø!"));
+	KOR.insert(pair<string, string>("OE", "¿¡·¯!"));
+
+	ENG.insert(pair<string, string>("Hello", "Hello , "));
+	ENG.insert(pair<string, string>("Hello_b", "!"));
+	ENG.insert(pair<string, string>("Success", "Success!"));
+	ENG.insert(pair<string, string>("OE", "Oops! Error!"));
+
+	Language_map.insert(pair<string, map < string, string>>("KOR", KOR));
+	Language_map.insert(pair<string, map < string, string>>("ENG", ENG));
+
 	ifstream in("username.ocp");
 
 	if (in.is_open() == true) {
@@ -49,8 +68,38 @@ void init(string * username) {
 	}
 
 	in.close();
+	in.open("lang.ocp");
+	if (in.is_open() == true) {
+		string s = "";
+		in >> s;
+		*language_code = s;
+	}
+	else {
+		while (true)
+		{
+			ofstream out("lang.ocp");
+
+			if (out.is_open() == true) {
+				out << "ENG";
+				out.close();
+				break;
+			}
+		}
+
+		*language_code = "ENG";
+	}
+
+	in.close();
 
 	return;
+}
+
+string Get_string_by_Language_Code(string Language_code, string key) {
+	return Language_map[Language_code][key];
+}
+
+string GSBLC(string Language_code, string key) {
+	return Get_string_by_Language_Code(Language_code, key);
 }
 
 vector<string> get_files_in_folder(string path)
