@@ -14,3 +14,4 @@
 ### set [Key]=[Value]
 ### playsound [wav file name]
 ### stopsound
+### beep [ octave + note in English ] [ millisecond ]
