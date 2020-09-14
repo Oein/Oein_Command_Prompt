@@ -4,11 +4,11 @@
 #include <string>
 #include <Windows.h>
 #include <vector>
-#include <thread>
 #include <mmsystem.h>
 #include "dirent.hpp"
 #include "String.hpp"
 #include "Funtion.hpp"
+#include "Beep_piano.hpp"
 
 #pragma comment(lib,"winmm.lib")
 
@@ -145,7 +145,7 @@ string get_var_data(string key) {
 	return vars[key];
 }
 
-std::wstring s2ws(const std::string& s)
+wstring s2ws(const string& s)
 {
 	int len;
 	int slength = (int)s.length() + 1;
@@ -157,12 +157,11 @@ std::wstring s2ws(const std::string& s)
 	return r;
 }
 
-LPCWSTR sw;
-
 void playmusic(vector<string> commands) {
 	if (commands.size() < 2) return;
 
 	string fn = directory;
+	LPCWSTR sw;
 
 	for (int i = 1; i < commands.size(); i++) {
 		fn = fn + commands[i];
@@ -178,6 +177,10 @@ void playmusic(vector<string> commands) {
 
 void stopmusic() {
 	PlaySound(NULL, NULL, SND_ASYNC);
+}
+
+void beep(vector<string> commands) {
+	if (commands[1] == "1C") 
 }
 
 void input_command(string command_string) {
@@ -202,6 +205,7 @@ void input_command(string command_string) {
 	if (to_low(commands[0]) == "set") { set(commands); }
 	if (to_low(commands[0]) == "playsound") { playmusic(commands); }
 	if (to_low(commands[0]) == "stopsound") { stopmusic(); }
+	if (to_low(commands[0]) == "beep") { beep(commands); }
 }
 
 void on_start() {
