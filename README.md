@@ -34,5 +34,7 @@
 #### ex : help
 ### ver
 #### ex : ver
+### VFile [File Name]
+#### ex : VFile A_Text_File.txt
 &nbsp;
 ### Sample File link : <a href="https://github.com/Oein/Oein_Command_Prompt/tree/master/Samples">Link</a>
