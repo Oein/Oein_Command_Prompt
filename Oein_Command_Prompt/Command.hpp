@@ -259,6 +259,7 @@ void help() {
 	cout << "playsound [wav file name]\n\tplausound A_Sample_Wav_File.wav\n\n";
 	cout << "stopsound\n\tex : stopsound\n\n";
 	cout << "beep [ octave + note in English ] [ millisecond ]\n\tex : 4C 400\n\tOctave : 1C ~ 8B\n\n";
+	cout << "help\n\tex : help\n\n";
 	cout << "You can download sample files at here\nhttps://github.com/Oein/Oein_Command_Prompt/tree/master/Samples\n";
 }
 
