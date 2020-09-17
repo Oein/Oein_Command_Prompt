@@ -32,5 +32,7 @@
 #### Octave : 1C ~ 8B
 ### help
 #### ex : help
+### ver
+#### ex : ver
 &nbsp;
 ### Sample File link : <a href="https://github.com/Oein/Oein_Command_Prompt/tree/master/Samples">Link</a>

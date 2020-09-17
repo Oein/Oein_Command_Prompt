@@ -17,6 +17,7 @@ using namespace std;
 string directory = "/";
 string username = "User";
 string language_code = "";
+string Version = "16";
 
 map<string, string> vars;
 vector<string> variable_list;
@@ -260,7 +261,12 @@ void help() {
 	cout << "stopsound\n\tex : stopsound\n\n";
 	cout << "beep [ octave + note in English ] [ millisecond ]\n\tex : 4C 400\n\tOctave : 1C ~ 8B\n\n";
 	cout << "help\n\tex : help\n\n";
+	cout << "ver\n\tex : ver\n\n";
 	cout << "You can download sample files at here\nhttps://github.com/Oein/Oein_Command_Prompt/tree/master/Samples\n";
+}
+
+void ver() {
+	cout << "Oein Command Prompt  v" + Version << '\n';
 }
 
 void input_command(string command_string) {
@@ -287,6 +293,7 @@ void input_command(string command_string) {
 	if (to_low(commands[0]) == "stopsound") { stopmusic(); }
 	if (to_low(commands[0]) == "beep") { beep(commands); }
 	if (to_low(commands[0]) == "help") { help(); }
+	if (to_low(commands[0]) == "ver") { ver(); }
 }
 
 void on_start() {
