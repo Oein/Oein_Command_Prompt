@@ -18,10 +18,10 @@
 #### ex : ls
 &nbsp;
 ### timeout [ millisecond ]
-#### ex : 1000
+#### ex : timeout 1000
 &nbsp;
 ### sleep [ millisecond ]
-#### ex : 1000
+#### ex : sleep 1000
 &nbsp;
 ### mkdir [ Dir name ]
 #### ex : mkdir A_New_Folder

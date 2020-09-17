@@ -244,8 +244,22 @@ void beep(vector<string> commands) {
 	if (to_low(commands[1]) == "8b") Beep(_8B, atoi(commands[2].c_str()));
 }
 
-void if_(vector<string> commands) {
-
+void help() {
+	cout << "Commands List\n\necho [Data]\n\tex : echo Hello?\n\n";
+	cout << "bash [ File Name ]\n\tex : bash a.obash\n\n";
+	cout << "title [ Title ]\n\tex : title OCP\n\n";
+	cout << "dir\n\tex : dir\n\n";
+	cout << "ls\n\tex : ls\n\n";
+	cout << "timeout [ millisecond ]\n\ttimeout 1000\n\n";
+	cout << "sleep [ millisecond ]\n\tsleep 1000\n\n";
+	cout << "mkdir [ Dir name ]\n\tmkdir A_New_Folder\n\n";
+	cout << "rmdir [ Dir name ]\n\trmdir An_Older_Folder\n\n";
+	cout << "cd [ Dir name ]\n\tcd A_Folder\n\n";
+	cout << "set [Key]=[Value]\n\tex : set a_var=32\n\n";
+	cout << "playsound [wav file name]\n\tplausound A_Sample_Wav_File.wav\n\n";
+	cout << "stopsound\n\tex : stopsound\n\n";
+	cout << "beep [ octave + note in English ] [ millisecond ]\n\tex : 4C 400\n\tOctave : 1C ~ 8B\n\n";
+	cout << "You can download sample files at here\nhttps://github.com/Oein/Oein_Command_Prompt/tree/master/Samples\n";
 }
 
 void input_command(string command_string) {
@@ -271,7 +285,7 @@ void input_command(string command_string) {
 	if (to_low(commands[0]) == "playsound") { playmusic(commands); }
 	if (to_low(commands[0]) == "stopsound") { stopmusic(); }
 	if (to_low(commands[0]) == "beep") { beep(commands); }
-	if (to_low(commands[0]) == "if") { if_(commands); }
+	if (to_low(commands[0]) == "help") { help(); }
 }
 
 void on_start() {
