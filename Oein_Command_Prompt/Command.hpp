@@ -17,7 +17,7 @@ using namespace std;
 string directory = "/";
 string username = "User";
 string language_code = "";
-string Version = "16";
+string Version = "17";
 
 map<string, string> vars;
 vector<string> variable_list;
