@@ -244,6 +244,10 @@ void beep(vector<string> commands) {
 	if (to_low(commands[1]) == "8b") Beep(_8B, atoi(commands[2].c_str()));
 }
 
+void if_(vector<string> commands) {
+
+}
+
 void input_command(string command_string) {
 	for (int i = 0; i < variable_list.size(); i++) {
 		command_string = replace_all(command_string, "%" + variable_list[i] + "%", get_var_data(variable_list[i]));
@@ -267,6 +271,7 @@ void input_command(string command_string) {
 	if (to_low(commands[0]) == "playsound") { playmusic(commands); }
 	if (to_low(commands[0]) == "stopsound") { stopmusic(); }
 	if (to_low(commands[0]) == "beep") { beep(commands); }
+	if (to_low(commands[0]) == "if") { if_(commands); }
 }
 
 void on_start() {
