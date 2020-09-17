@@ -269,6 +269,20 @@ void ver() {
 	cout << "Oein Command Prompt  v" + Version << '\n';
 }
 
+void vfile(vector<string> commands) {
+	if (commands.size() < 2) return;
+	ifstream in(directory + replace_all(commands[1] , "@" , " "));
+	if (in.is_open()) {
+		cout << GSBLC(language_code, "RS") << "\n\n";
+		string s;
+		in >> s;
+		cout << s;
+	}
+	else {
+		cout << GSBLC(language_code, "OE") << '\n';
+	}
+}
+
 void input_command(string command_string) {
 	for (int i = 0; i < variable_list.size(); i++) {
 		command_string = replace_all(command_string, "%" + variable_list[i] + "%", get_var_data(variable_list[i]));
@@ -294,6 +308,7 @@ void input_command(string command_string) {
 	if (to_low(commands[0]) == "beep") { beep(commands); }
 	if (to_low(commands[0]) == "help") { help(); }
 	if (to_low(commands[0]) == "ver") { ver(); }
+	if (to_low(commands[0]) == "vfile") { vfile(commands); }
 }
 
 void on_start() {
