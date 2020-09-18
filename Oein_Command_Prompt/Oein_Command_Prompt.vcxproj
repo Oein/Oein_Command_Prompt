@@ -147,6 +147,7 @@
     <ClInclude Include="Command_moduls\bash.hpp" />
     <ClInclude Include="Command_moduls\beep.hpp" />
     <ClInclude Include="Command_moduls\Beep_piano.hpp" />
+    <ClInclude Include="Command_moduls\cls.hpp" />
     <ClInclude Include="Command_moduls\dir.hpp" />
     <ClInclude Include="Command_moduls\echo.hpp" />
     <ClInclude Include="Command_moduls\help.hpp" />

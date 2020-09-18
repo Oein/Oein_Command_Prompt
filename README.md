@@ -53,5 +53,8 @@
 ### VFile [File Name]
 ### It print file
 #### ex : VFile A_Text_File.txt
+### cls
+### It clear screen
+#### ex : cls
 &nbsp;
 ### Sample File link : <a href="https://github.com/Oein/Oein_Command_Prompt/tree/master/Samples">Link</a>

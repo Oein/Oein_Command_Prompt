@@ -111,6 +111,7 @@ void input_command(string command_string) {
 	if (to_low(commands[0]) == "help") { help(); }
 	if (to_low(commands[0]) == "ver") { ver(Version); }
 	if (to_low(commands[0]) == "vfile") { vfile(commands, &directory); }
+	if (to_low(commands[0]) == "cls") { cls(); }
 }
 
 void on_start() {

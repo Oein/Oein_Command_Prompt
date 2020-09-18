@@ -71,5 +71,8 @@
     <ClInclude Include="Command_moduls\bash.hpp">
       <Filter>헤더 파일\Command_Modules</Filter>
     </ClInclude>
+    <ClInclude Include="Command_moduls\cls.hpp">
+      <Filter>헤더 파일\Command_Modules</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
