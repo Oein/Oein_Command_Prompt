@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="헤더 파일\Command_Modules">
+      <UniqueIdentifier>{054d9fc0-25de-4f00-8406-90e27fc02b9c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -31,6 +34,42 @@
     </ClInclude>
     <ClInclude Include="dirent.hpp">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_moduls\beep.hpp">
+      <Filter>헤더 파일\Command_Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_moduls\Beep_piano.hpp">
+      <Filter>헤더 파일\Command_Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_moduls\ver.hpp">
+      <Filter>헤더 파일\Command_Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_moduls\include_module.hpp">
+      <Filter>헤더 파일\Command_Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_moduls\help.hpp">
+      <Filter>헤더 파일\Command_Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_Moudle_Includer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_moduls\echo.hpp">
+      <Filter>헤더 파일\Command_Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_moduls\music.hpp">
+      <Filter>헤더 파일\Command_Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_moduls\vfile.hpp">
+      <Filter>헤더 파일\Command_Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_moduls\dir.hpp">
+      <Filter>헤더 파일\Command_Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_moduls\title.hpp">
+      <Filter>헤더 파일\Command_Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_moduls\bash.hpp">
+      <Filter>헤더 파일\Command_Modules</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
