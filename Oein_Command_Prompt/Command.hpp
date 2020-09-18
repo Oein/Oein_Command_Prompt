@@ -4,7 +4,6 @@
 #include <string>
 #include <Windows.h>
 #include <vector>
-#include <mmsystem.h>
 #include "dirent.hpp"
 #include "String.hpp"
 #include "Funtion.hpp"
