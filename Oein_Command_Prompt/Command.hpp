@@ -85,33 +85,96 @@ wstring s2ws(const string& s)
 	return r;
 }
 
+static constexpr uint32_t const_hash(const char* p) {
+	return *p ? static_cast<uint32_t>(*p) + 33 * const_hash(p + 1) : 5381;
+}
+
 void input_command(string command_string) {
 	for (int i = 0; i < variable_list.size(); i++) {
 		command_string = replace_all(command_string, "%" + variable_list[i] + "%", get_var_data(variable_list[i]));
 	}
 
-	vector<string> commands = split(command_string , ' ');
+	vector<string> commands = split(command_string, ' ');
 
 	if (commands.size() < 1) return;
 
-	if (to_low(commands[0]) == "echo") { echo(commands); }
-	if (to_low(commands[0]) == "bash") { bash(commands , &directory); }
-	if (to_low(commands[0]) == "title") { title(commands); }
-	if (to_low(commands[0]) == "dir") { dir(commands); }
-	if (to_low(commands[0]) == "ls") { dir(commands); }
-	if (to_low(commands[0]) == "timeout") { Sleep(atoi(commands[1].c_str())); }
-	if (to_low(commands[0]) == "sleep") { Sleep(atoi(commands[1].c_str())); }
-	if (to_low(commands[0]) == "mkdir") { make_dir(commands, &directory); }
-	if (to_low(commands[0]) == "rmdir") { remove_dir(commands, &directory); }
-	if (to_low(commands[0]) == "cd") { cd(commands); }
-	if (to_low(commands[0]) == "set") { set(commands); }
-	if (to_low(commands[0]) == "playsound") { playmusic(commands , &directory); }
-	if (to_low(commands[0]) == "stopsound") { stopmusic(); }
-	if (to_low(commands[0]) == "beep") { beep(commands); }
-	if (to_low(commands[0]) == "help") { help(); }
-	if (to_low(commands[0]) == "ver") { ver(Version); }
-	if (to_low(commands[0]) == "vfile") { vfile(commands, &directory); }
-	if (to_low(commands[0]) == "cls") { cls(); }
+	uint32_t hash = const_hash(commands[0].c_str());
+
+	switch (hash) {
+	case const_hash("echo"):
+		echo(commands);
+		break;
+
+	case const_hash("title"):
+		title(commands);
+		break;
+
+	case const_hash("bash"):
+		bash(commands, &directory);
+		break;
+
+	case const_hash("dir"):
+		dir(commands);
+		break;
+
+	case const_hash("ls"):
+		dir(commands);
+		break;
+
+	case const_hash("timeout"):
+		Sleep(atoi(commands[1].c_str()));
+		break;
+
+	case const_hash("sleep"):
+		Sleep(atoi(commands[1].c_str()));
+		break;
+
+	case const_hash("mkdir"):
+		make_dir(commands, &directory);
+		break;
+
+	case const_hash("rmdir"):
+		remove_dir(commands, &directory);
+		break;
+
+	case const_hash("cd"):
+		cd(commands);
+		break;
+
+	case const_hash("set"):
+		set(commands);
+		break;
+
+	case const_hash("playsound"):
+		playmusic(commands, &directory);
+		break;
+
+	case const_hash("stopsound"):
+		stopmusic();
+		break;
+
+	case const_hash("beep"):
+		beep(commands);
+		break;
+
+	case const_hash("help"):
+		help();
+		break;
+
+	case const_hash("ver"):
+		ver(Version);
+		break;
+
+	case const_hash("vfile"):
+		vfile(commands, &directory);
+		break;
+
+	case const_hash("cls"):
+		cls();
+		break;
+
+	default: break;
+	}
 }
 
 void on_start() {
