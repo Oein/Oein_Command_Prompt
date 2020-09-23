@@ -14,6 +14,10 @@ HDC mydc = GetDC(myconsole);
 
 map<string, map<string, string>> Language_map;
 
+string GSBLC(string Language_code, string key);
+
+bool is_dev = false;
+
 void setpx (int x , int y , COLORREF COLOR){
 	SetPixel(mydc, x, y, COLOR);
 
@@ -30,41 +34,70 @@ void setfpx(int x, int y, int dx , int dy , COLORREF COLOR) {
 	ReleaseDC(myconsole, mydc);
 }
 
+void dl_(string msg) {
+	if (is_dev == true) {
+		cout << msg << '\n';
+	}
+
+	return;
+}
+
 void init(string * username , string * language_code) {
+	ifstream in("dev.ocp");
+
+	if (in.is_open()) {
+		is_dev = true;
+		dl_("dev mode on");
+	}
+
+	in.close();
+
 	map<string, string> KOR;
 	map<string, string> ENG;
 
+	dl_("start to add kor lang map");
 	KOR.insert(pair<string, string>("Hello", "안녕하세요? "));
 	KOR.insert(pair<string, string>("Hello_b", "님?"));
 	KOR.insert(pair<string, string>("Success", "성공!"));
 	KOR.insert(pair<string, string>("RS", "읽기 성공!"));
 	KOR.insert(pair<string, string>("OE", "에러!"));
 	KOR.insert(pair<string, string>("AS", "액세스를 성공했습니다!"));
+	dl_("complete add kor lang map");
 
+	dl_("start to add eng lang map");
 	ENG.insert(pair<string, string>("Hello", "Hello , "));
 	ENG.insert(pair<string, string>("Hello_b", "!"));
 	ENG.insert(pair<string, string>("Success", "Success!"));
 	ENG.insert(pair<string, string>("RS", "Read Success!"));
 	ENG.insert(pair<string, string>("OE", "Oops! Error!"));
 	ENG.insert(pair<string, string>("AS", "Access succeeded!"));
+	dl_("complete add eng lang map");
 
+	dl_("add lang maps in main lang map");
 	Language_map.insert(pair<string, map < string, string>>("KOR", KOR));
 	Language_map.insert(pair<string, map < string, string>>("ENG", ENG));
+	dl_("complete add lang maps in main lang map");
 
-	ifstream in("username.ocp");
+	dl_("open username.ocp");
+	in.open("username.ocp");
 
 	if (in.is_open() == true) {
+		dl_("Success to read");
 		string s = "";
 		in >> s;
 		*username = s;
+		dl_("username seted!");
 	}
 	else {
+		dl_("no username.ocp");
+		dl_("make username.ocp");
 		while (true)
 		{
 			ofstream out("username.ocp");
 
 			if (out.is_open() == true) {
 				out << "User";
+				dl_("make username.ocp");
 				out.close();
 				break;
 			}
@@ -72,19 +105,26 @@ void init(string * username , string * language_code) {
 	}
 
 	in.close();
+	dl_("username.ocp closed");
+
 	in.open("lang.ocp");
+	dl_("lang.ocp opened");
 	if (in.is_open() == true) {
 		string s = "";
 		in >> s;
 		*language_code = s;
+		dl_("lang code seted!");
 	}
 	else {
+		dl_("no lang.ocp");
+		dl_("make lang.ocp");
 		while (true)
 		{
 			ofstream out("lang.ocp");
 
 			if (out.is_open() == true) {
 				out << "ENG";
+				dl_("make lang.ocp");
 				out.close();
 				break;
 			}
