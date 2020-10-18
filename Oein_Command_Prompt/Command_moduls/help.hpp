@@ -24,6 +24,7 @@ void help() {
 	cout << "VFile [File Name]\n\tex : VFile A Document.txt\n\n";
 	cout << "cls\n\tex : cls\n\n";
 	cout << "piano\n\tex : piano\n\n";
+	cout << "start\n\tex : start A_Promgram.exe\n\n";
 
 	cout << "You can download sample files at here\nhttps://github.com/Oein/Oein_Command_Prompt/tree/master/Samples\n";
 }

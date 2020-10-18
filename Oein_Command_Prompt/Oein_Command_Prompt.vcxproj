@@ -157,6 +157,7 @@
     <ClInclude Include="Command_moduls\piano_header\functions.hpp" />
     <ClInclude Include="Command_moduls\piano_header\include.hpp" />
     <ClInclude Include="Command_moduls\piano_header\midiSoundPlay.hpp" />
+    <ClInclude Include="Command_moduls\start.hpp" />
     <ClInclude Include="Command_moduls\title.hpp" />
     <ClInclude Include="Command_moduls\ver.hpp" />
     <ClInclude Include="Command_moduls\vfile.hpp" />

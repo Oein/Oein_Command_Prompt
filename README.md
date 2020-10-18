@@ -59,6 +59,9 @@
 ### piano
 ### It start midi piano program
 #### ex : piano
+### start [File]
+### It start program
+#### ex : start Hello_World.exe
 &nbsp;
 ## How to on dev mode?
 ### add dev.ocp file

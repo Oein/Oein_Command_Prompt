@@ -12,3 +12,4 @@
 #include "Command_moduls/bash.hpp"
 #include "Command_moduls/cls.hpp"
 #include "Command_moduls/piano.hpp"
+#include "Command_moduls/start.hpp"
