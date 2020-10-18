@@ -173,6 +173,10 @@ void input_command(string command_string) {
 		cls();
 		break;
 
+	case const_hash("piano"):
+		piano();
+		break;
+
 	default: break;
 	}
 }

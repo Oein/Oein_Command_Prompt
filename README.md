@@ -56,5 +56,8 @@
 ### cls
 ### It clear screen
 #### ex : cls
+### piano
+### It start midi piano program
+#### ex : piano
 &nbsp;
 ### Sample File link : <a href="https://github.com/Oein/Oein_Command_Prompt/tree/master/Samples">Link</a>

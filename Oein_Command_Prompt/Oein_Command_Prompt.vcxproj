@@ -153,6 +153,10 @@
     <ClInclude Include="Command_moduls\help.hpp" />
     <ClInclude Include="Command_moduls\include_module.hpp" />
     <ClInclude Include="Command_moduls\music.hpp" />
+    <ClInclude Include="Command_moduls\piano.hpp" />
+    <ClInclude Include="Command_moduls\piano_header\functions.hpp" />
+    <ClInclude Include="Command_moduls\piano_header\include.hpp" />
+    <ClInclude Include="Command_moduls\piano_header\midiSoundPlay.hpp" />
     <ClInclude Include="Command_moduls\title.hpp" />
     <ClInclude Include="Command_moduls\ver.hpp" />
     <ClInclude Include="Command_moduls\vfile.hpp" />

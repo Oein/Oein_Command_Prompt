@@ -1,5 +1,5 @@
 ﻿  Main.cpp
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Funtion.hpp(186,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Funtion.hpp(184,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
 C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(8,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(9,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(10,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
@@ -59,6 +59,12 @@ C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Comm
 C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\echo.hpp(9,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
 C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\music.hpp(11,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
 C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\title.hpp(9,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano_header\functions.hpp(7,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano_header\functions.hpp(7,21): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano.hpp(71,28): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano.hpp(80,28): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano.hpp(89,28): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano.hpp(97,28): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(28,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
 C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(36,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
 C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(53,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.

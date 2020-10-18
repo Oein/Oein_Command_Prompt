@@ -16,6 +16,9 @@
     <Filter Include="헤더 파일\Command_Modules">
       <UniqueIdentifier>{054d9fc0-25de-4f00-8406-90e27fc02b9c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\Command_Modules\piano_header">
+      <UniqueIdentifier>{86599073-caa2-4842-878c-03e75c938a0f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -72,6 +75,18 @@
       <Filter>헤더 파일\Command_Modules</Filter>
     </ClInclude>
     <ClInclude Include="Command_moduls\cls.hpp">
+      <Filter>헤더 파일\Command_Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_moduls\piano_header\functions.hpp">
+      <Filter>헤더 파일\Command_Modules\piano_header</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_moduls\piano_header\include.hpp">
+      <Filter>헤더 파일\Command_Modules\piano_header</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_moduls\piano_header\midiSoundPlay.hpp">
+      <Filter>헤더 파일\Command_Modules\piano_header</Filter>
+    </ClInclude>
+    <ClInclude Include="Command_moduls\piano.hpp">
       <Filter>헤더 파일\Command_Modules</Filter>
     </ClInclude>
   </ItemGroup>
