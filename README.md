@@ -60,4 +60,7 @@
 ### It start midi piano program
 #### ex : piano
 &nbsp;
+## How to on dev mode?
+### add dev.ocp file
+&nbsp;
 ### Sample File link : <a href="https://github.com/Oein/Oein_Command_Prompt/tree/master/Samples">Link</a>
