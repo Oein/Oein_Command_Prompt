@@ -44,15 +44,20 @@
 ### It beep
 #### ex : 4C 400
 #### Octave : 1C ~ 8B
-### help
+### help [command]
+### You can don't type [command]
 ### It print help
-#### ex : help
+#### ex : help cd
+#### ex2 : help
 ### ver
 ### It print version
 #### ex : ver
 ### VFile [File Name]
 ### It print file
 #### ex : VFile A_Text_File.txt
+### cat [File Name]
+### It print file
+#### ex : cat A_Text_File.txt
 ### cls
 ### It clear screen
 #### ex : cls
