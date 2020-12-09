@@ -103,6 +103,8 @@ void input_command(string command_string) {
 		if (command_string[1] == ':') {
 			directory = command_string + "/";
 		}
+
+		return;
 	}
 
 	uint32_t hash = const_hash(commands[0].c_str());
