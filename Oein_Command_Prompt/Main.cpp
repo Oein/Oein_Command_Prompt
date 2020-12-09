@@ -8,12 +8,17 @@ int main() {
 
 	while (true)
 	{
-		string input;
-		cout << get_dir() << ">";
-		getline(cin, input);
+		try {
+			string input;
+			cout << get_dir() << ">";
+			getline(cin, input);
 
-		input_command(input);
+			input_command(input);
 
-		cout << '\n';
+			cout << '\n';
+		}
+		catch (int expn) {
+			cout << "[ERROR] : " << expn << '\n';
+		}
 	}
 }

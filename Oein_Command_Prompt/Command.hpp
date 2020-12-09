@@ -12,7 +12,7 @@
 
 using namespace std;
 
-string directory = "/";
+string directory = "C:/";
 string username = "User";
 string language_codea = "";
 string Version = "17.1";
@@ -98,6 +98,13 @@ void input_command(string command_string) {
 
 	if (commands.size() < 1) return;
 
+	//Dir º¯°æ
+	if (command_string.size() == 2) {
+		if (command_string[1] == ':') {
+			directory = command_string + "/";
+		}
+	}
+
 	uint32_t hash = const_hash(commands[0].c_str());
 
 	switch (hash) {
@@ -158,7 +165,7 @@ void input_command(string command_string) {
 		break;
 
 	case const_hash("help"):
-		help();
+		help(commands.size() >= 2 ? commands[1] : "");
 		break;
 
 	case const_hash("ver"):
@@ -166,6 +173,10 @@ void input_command(string command_string) {
 		break;
 
 	case const_hash("vfile"):
+		vfile(commands, &directory);
+		break;
+
+	case const_hash("cat"):
 		vfile(commands, &directory);
 		break;
 
@@ -181,11 +192,14 @@ void input_command(string command_string) {
 		start(commands , directory);
 		break;
 
-	default: break;
+	default: 
+		cout << commands[0] << " is not recognized as an internal or external command";
+		break;
 	}
 }
 
 void on_start() {
+	on_start_help();
 	init(&username , &language_codea);
 	language_code = language_codea;
 

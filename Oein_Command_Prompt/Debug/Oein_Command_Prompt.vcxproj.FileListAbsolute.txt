@@ -1,2 +1,4 @@
 C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Debug\Oein_Command_Prompt.exe
 C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Debug\Oein_Command_Prompt.pdb
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Debug\Oein_Command_Prompt.exe
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Debug\Oein_Command_Prompt.pdb

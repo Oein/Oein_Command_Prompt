@@ -1,73 +1,74 @@
 ﻿  Main.cpp
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Funtion.hpp(184,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(8,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(9,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(10,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(11,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(12,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(13,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(14,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(15,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(17,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(18,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(19,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(20,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(21,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(22,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(23,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(24,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(26,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(27,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(28,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(29,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(30,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(31,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(32,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(33,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(35,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(36,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(37,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(38,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(39,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(40,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(41,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(42,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(44,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(45,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(46,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(47,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(48,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(49,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(50,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(51,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(53,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(54,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(55,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(56,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(57,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(58,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(59,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(60,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(62,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(63,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(64,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(65,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(66,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(67,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(68,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(69,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\echo.hpp(9,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\music.hpp(11,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\title.hpp(9,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano_header\functions.hpp(7,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano_header\functions.hpp(7,21): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano.hpp(71,28): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano.hpp(80,28): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano.hpp(89,28): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano.hpp(97,28): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\start.hpp(7,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(28,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(36,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(53,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(93,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  Oein_Command_Prompt.vcxproj -> C:\Users\wpdlf\Desktop\projects\OCP\Oein_Command_Prompt\Oein_Command_Prompt\Debug\Oein_Command_Prompt.exe
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Funtion.hpp(184,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(8,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(9,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(10,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(11,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(12,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(13,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(14,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(15,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(17,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(18,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(19,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(20,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(21,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(22,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(23,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(24,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(26,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(27,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(28,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(29,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(30,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(31,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(32,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(33,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(35,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(36,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(37,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(38,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(39,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(40,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(41,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(42,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(44,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(45,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(46,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(47,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(48,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(49,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(50,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(51,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(53,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(54,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(55,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(56,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(57,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(58,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(59,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(60,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(62,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(63,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(64,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(65,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(66,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(67,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(68,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\beep.hpp(69,40): warning C4244: '인수': 'double'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\help.hpp(60,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\echo.hpp(9,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\music.hpp(11,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\title.hpp(9,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano_header\functions.hpp(7,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano_header\functions.hpp(7,21): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano.hpp(71,28): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano.hpp(80,28): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano.hpp(89,28): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\piano.hpp(97,28): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command_moduls\start.hpp(7,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(28,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(36,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(53,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+H:\Oein_Command_Prompt\Oein_Command_Prompt\Command.hpp(93,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Oein_Command_Prompt.vcxproj -> H:\Oein_Command_Prompt\Oein_Command_Prompt\Debug\Oein_Command_Prompt.exe
