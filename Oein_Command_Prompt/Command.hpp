@@ -12,7 +12,7 @@
 
 using namespace std;
 
-string directory = "C:/";
+string directory = "/";
 string username = "User";
 string language_codea = "";
 string Version = "17.1";
