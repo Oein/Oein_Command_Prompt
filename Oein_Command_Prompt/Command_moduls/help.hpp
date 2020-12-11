@@ -29,6 +29,7 @@ void on_start_help() {
 	Help_Msg.insert(pair<string, string>("cls", "cls\n\tex : cls\n\n"));
 	Help_Msg.insert(pair<string, string>("piano", "piano\n\tex : piano\n\n"));
 	Help_Msg.insert(pair<string, string>("start", "start\n\tex : start A_Promgram.exe\n\n"));
+	Help_Msg.insert(pair<string, string>("color", "color\n\tColor\n\t0 = Black\n\t1 = Blue\n\t2=Green\n\t3 = Aqua\n\t4 = Red\n\t5 = Purple\n\t6 = Yellow\n\t7 = White\n\t8 = Gray\n\t9 = Light Blue\n\tA = Light Green\n\tB = Light Aqua\n\tC = Light Red\n\tD = Light Purple\n\tE = Light Yellow\n\tF = Bright White\n\tex : color 17\n\n"));
 
 	list.push_back("echo");
 	list.push_back("bash");
@@ -51,6 +52,7 @@ void on_start_help() {
 	list.push_back("cls");
 	list.push_back("piano");
 	list.push_back("start");
+	list.push_back("color");
 }
 
 void help(string cmd="") {

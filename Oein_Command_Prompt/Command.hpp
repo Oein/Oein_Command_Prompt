@@ -15,7 +15,7 @@ using namespace std;
 string directory = "/";
 string username = "User";
 string language_codea = "";
-string Version = "17.1";
+string Version = "23";
 
 map<string, string> vars;
 vector<string> variable_list;
@@ -194,6 +194,10 @@ void input_command(string command_string) {
 		start(commands , directory);
 		break;
 
+	case const_hash("color"):
+		color(commands);
+		break;
+
 	default: 
 		cout << commands[0] << " is not recognized as an internal or external command";
 		break;
@@ -219,7 +223,9 @@ void on_start() {
 	variable_list.push_back("lang");
 
 	cout << "Hello, " << username << "!\n";
-}
+
+	system("title Oein Command Prompt");
+};
 
 string get_dir() {
 	return directory;

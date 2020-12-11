@@ -67,6 +67,9 @@
 ### start [File]
 ### It start program
 #### ex : start Hello_World.exe
+### color [CR]
+### It change Background color and Text Color
+#### ex : color 17
 &nbsp;
 ## How to on dev mode?
 ### add dev.ocp file

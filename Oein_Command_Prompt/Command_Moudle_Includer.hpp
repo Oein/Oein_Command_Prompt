@@ -13,3 +13,4 @@
 #include "Command_moduls/cls.hpp"
 #include "Command_moduls/piano.hpp"
 #include "Command_moduls/start.hpp"
+#include "Command_moduls/color.hpp"
